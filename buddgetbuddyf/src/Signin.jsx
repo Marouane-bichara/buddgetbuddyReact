@@ -31,8 +31,8 @@ const Signin = () => {
             //   navigate('/dashboard');
             // }
           }
-        } catch (err) {
-          console.error(err); 
+        } catch (e){
+          console.error(e); 
         }
       };
          
