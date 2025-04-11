@@ -23,7 +23,7 @@ const Signin = () => {
           console.log(data);
       
           if (data.token) {
-            localStorage.setItem('token', data.token);
+            localStorage.setItem('token', data.token);           
       
             // if (data.role === 'admin') {
             //   navigate('/admin');
